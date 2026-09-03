@@ -1,2 +1,4 @@
 # StrongIdAnalyzer: infer strong-id types from parameter/variable name suffixes
-strongidanalyzer.infer_suffix_ids = true
+# strongidanalyzer.infer_suffix_ids = true
+
+strongidanalyzer.infer_wrapper_ids = true

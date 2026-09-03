@@ -13,7 +13,7 @@ public class StrongGuid
 
     void F()
     {
-        momUserId = dadUserId;
+        momUserId = dadUserId; // warning SIA001: Value with [Id("DadUser")] is assigned to a target with [Id("MomUser")]
     }
 }
 

@@ -2,9 +2,9 @@ public readonly record struct UserId(Guid Value);
 
 public class StrongGuid
 {
-    [Id("UserId")]
+    [Id("User")]
     public UserId momUserId;
-    [Id("UserId")]
+    [Id("User")]
     public UserId dadUserId;
 
     public StrongGuid(UserId momUserId, UserId dadUserId)

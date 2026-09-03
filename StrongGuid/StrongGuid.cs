@@ -4,11 +4,16 @@ public class StrongGuid
 {
     public UserId momUserId;
     public UserId dadUserId;
+    private UserId _childUserId;
 
-    public StrongGuid(UserId momUserId, UserId dadUserId)
+
+    public StrongGuid(UserId momUserId, UserId dadUserId, UserId childUserId)
     {
         this.momUserId = momUserId;
         this.dadUserId = dadUserId;
+
+        this._childUserId = childUserId;
+
     }
 
     void F()
